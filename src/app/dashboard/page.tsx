@@ -5,7 +5,7 @@ import Container from "@/shared/ui/Container";
 export default function DashboardPage() {
   return (
     <>
-      <DashboardHeader />
+      {/* <DashboardHeader /> */}
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
           <StatsCard title="Users" value="1,245" />

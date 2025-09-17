@@ -1,4 +1,5 @@
 import Button from "@/shared/ui/Button";
+import ThemeToggle from "@/features/theme/components/ThemeToggle";
 
 export default function DashboardHeader() {
   return (
@@ -7,6 +8,7 @@ export default function DashboardHeader() {
       <div className="flex gap-2">
         <Button variant="primary">New Report</Button>
         <Button variant="secondary">Settings</Button>
+        <ThemeToggle />
       </div>
     </header>
   );

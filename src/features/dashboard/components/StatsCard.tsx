@@ -13,3 +13,5 @@ export default function StatsCard({ title, value }: Props) {
     </Card>
   );
 }
+
+

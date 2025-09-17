@@ -9,7 +9,7 @@ const menu = [
 export default function Sidebar() {
   return (
     <aside className="w-64 bg-gray-900 text-white min-h-screen p-6 space-y-6">
-      <h1 className="text-2xl font-bold">MyApp</h1>
+      <h1 className="text-2xl font-bold">Bookstack</h1>
       <nav className="space-y-2">
         {menu.map((item) => (
           <Link
