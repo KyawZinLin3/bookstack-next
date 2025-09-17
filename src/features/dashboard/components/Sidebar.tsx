@@ -4,6 +4,7 @@ const menu = [
   { href: "/dashboard", label: "Overview" },
   { href: "/dashboard/reports", label: "Reports" },
   { href: "/dashboard/settings", label: "Settings" },
+  {href:"/books",label:"Books"}
 ];
 
 export default function Sidebar() {
